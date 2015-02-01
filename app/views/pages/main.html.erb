@@ -6,6 +6,9 @@
 	</p>
 </header>
 <section>
+	<div class="gif">
+		<%= image_tag(@gif.image_url)%>
+	</div>
 	<div class="button">
 		<button><%= link_to "~swag~", new_gif_path, id: "gif", remote: true %></button>
 	</div><!--
