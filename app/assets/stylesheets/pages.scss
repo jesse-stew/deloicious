@@ -2,6 +2,8 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+/***base CSS, smallest screens***/
+
 /***universal***/
 body {
 	color: #fff;
@@ -64,4 +66,43 @@ footer {
 	background-color: #eb6841;
 	font-size: 0.75em;
 	text-align: center;
+}
+
+
+/***CSS for medium sized devices, ≥768px***/
+@media (min-width: 768px) {
+
+	section {
+		width: 80%;
+		margin: 0 auto;
+	}
+
+	.button, .gif {
+		display: inline-block;
+		box-sizing: border-box;
+	}
+
+	.button {
+		width: 35%;
+		margin-right: 2.5%;
+		margin-left: 2.5%
+
+	}
+
+	.gif {
+		width: 55%;
+		margin-right: 2.5%;
+		margin-left: 2.5%
+	}
+
+}
+
+/*** CSS for large size devices, ≥992px***/
+
+@media (min-width: 992px) {
+
+section {
+	max-width: 700px;
+}
+
 }
