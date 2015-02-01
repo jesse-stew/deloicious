@@ -13,10 +13,10 @@ body {
 /***header***/
 header {
 	background-color: #00a0b0;
-	padding-top: 2em;
-	padding-bottom: 2em;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	margin-bottom: 2em;
 	text-align: center;
-	margin-bottom: 4em;
 }
 
 header > p > q {
@@ -55,9 +55,12 @@ button:hover {
 .gif {
 	padding-top: 1em;
 	padding-bottom: 1em;
-	border: 1px solid black;
 	width: 95%;
-	margin: 0 auto 2em auto;
+	margin: 0 auto;
+}
+
+img {
+	width: 100%;
 }
 
 
@@ -73,36 +76,10 @@ footer {
 @media (min-width: 768px) {
 
 	section {
-		width: 80%;
+		width: 40%;
 		margin: 0 auto;
 	}
 
-	.button, .gif {
-		display: inline-block;
-		box-sizing: border-box;
-	}
-
-	.button {
-		width: 35%;
-		margin-right: 2.5%;
-		margin-left: 2.5%
-
-	}
-
-	.gif {
-		width: 55%;
-		margin-right: 2.5%;
-		margin-left: 2.5%
-	}
-
 }
 
-/*** CSS for large size devices, ≥992px***/
 
-@media (min-width: 992px) {
-
-section {
-	max-width: 800px;
-}
-
-}
