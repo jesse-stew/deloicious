@@ -1,0 +1,67 @@
+// Place all the styles related to the Pages controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+/***universal***/
+body {
+	color: #fff;
+	font-family: 'Montserrat', sans-serif;
+}
+
+/***header***/
+header {
+	background-color: #00a0b0;
+	padding-top: 2em;
+	padding-bottom: 2em;
+	text-align: center;
+	margin-bottom: 4em;
+}
+
+header > p > q {
+	font-size: 1.5em;
+}
+
+/***body***/
+
+/***button***/
+.button {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-bottom: 2em;
+}
+
+button {
+	margin: 0 auto;
+	display: block;
+	-webkit-border-radius: 28;
+	-moz-border-radius: 28;
+	border-radius: 28px;
+	color: #ffffff;
+	font-size: 20px;
+	background: #eb6841;
+	padding: 10px 20px 10px 20px;
+	text-decoration: none;
+}
+
+button:hover {
+    background: #00a0b0;
+    text-decoration: none;
+}
+
+
+/***gif area***/
+.gif {
+	padding-top: 1em;
+	padding-bottom: 1em;
+	border: 1px solid black;
+	width: 95%;
+	margin: 0 auto 2em auto;
+}
+
+
+/***footer***/
+footer {
+	background-color: #eb6841;
+	font-size: 0.75em;
+	text-align: center;
+}
