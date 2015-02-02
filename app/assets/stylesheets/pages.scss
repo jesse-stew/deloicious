@@ -82,6 +82,10 @@ footer {
 	font-family: 'Raleway', sans-serif;
 }
 
+footer > img {
+	width: 20%;
+}
+
 
 /***CSS for medium sized devices, ≥768px***/
 @media (min-width: 768px) {
