@@ -7,13 +7,10 @@
 </header>
 <section>
 	<div class="gif">
-		<%= image_tag(@gif.image_url)%>
-	</div>
+    <%= render "gif"%>
+  </div>
 	<div class="button">
-		<button><%= link_to "~swag~", new_gif_path, id: "gif", remote: true %></button>
-	</div><!--
-	--><div class="gif">
-		<%= image_tag(@gif.image_url)%>
+		<button><%= link_to "~swag~", gif_path, id: "a_gif", remote: true %></button>
 	</div>
 </section>
 <footer>
