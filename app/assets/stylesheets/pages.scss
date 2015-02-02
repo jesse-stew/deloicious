@@ -37,17 +37,20 @@ header > p > q {
 	margin-bottom: 2em;
 }
 
+button > a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
 button {
 	margin: 0 auto;
 	display: block;
 	-webkit-border-radius: 28;
 	-moz-border-radius: 28;
 	border-radius: 28px;
-	color: #ffffff;
 	background: #00a0b0;
 	font-size: 20px;
 	padding: 10px 20px 10px 20px;
-	text-decoration: none;
 }
 
 button:hover {
