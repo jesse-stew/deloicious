@@ -7,12 +7,13 @@
 </header>
 <section>
 	<div class="gif">
-		<%= image_tag(@gif.image_url)%>
-	</div>
+    <%= render "gif"%>
+  </div>
 	<div class="button">
-		<button>~swag~</button>
+		<button><%= link_to "~swag~", gif_path, id: "a_gif", remote: true %></button>
 	</div>
 </section>
 <footer>
 	<p>Made with love and giggles by the Moonbeam Palace. <br> Powered by giphy.</p>
 </footer>
+
